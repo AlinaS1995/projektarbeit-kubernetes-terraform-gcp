@@ -5,11 +5,11 @@ Hochschule RheinMain
 
 ## Beschreibung
 
-Dieses Repository enthält die im Rahmen der Projektarbeit verwendeten Terraform-Konfigurationsdateien zur automatisierten Bereitstellung eines Kubernetes-Clusters in der Google Cloud Platform (GKE).
+Dieses Repository enthält die im Rahmen der Projektarbeit verwendeten Terraform-Konfigurationsdateien sowie die Projektdokumentation.
 
-Im Rahmen der Projektarbeit werden die manuelle Bereitstellung einer Kubernetes-Umgebung mit MicroK8s sowie die automatisierte Bereitstellung eines Google Kubernetes Engine (GKE)-Clusters mit Terraform untersucht und miteinander verglichen.
+Im Rahmen der Projektarbeit werden die manuelle Bereitstellung einer Kubernetes-Umgebung mit MicroK8s sowie die automatisierte Bereitstellung eines Google Kubernetes Engine (GKE)-Clusters mithilfe von Terraform untersucht und miteinander verglichen. Ergänzend wird die Funktionsweise der Kubernetes-Orchestrierung anhand eines Self-Healing-Szenarios demonstriert.
 
 ## Inhalt
 
-- Terraform-Konfigurationsdateien
-- Projektdokumentation (wird nach Fertigstellung ergänzt)
+- Projektdokumentation (PDF)
+- Terraform-Konfigurationsdateien (`main.tf`, `variables.tf`, `outputs.tf`)
